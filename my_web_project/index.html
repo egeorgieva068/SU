@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Студентски уеб проект</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <div class="container topbar">
+      <div class="logo">MyWebProject</div>
+      <nav>
+        <a href="index.html">Начало</a>
+        <a href="views/about.html">За проекта</a>
+        <a href="views/courses.html">Курсове</a>
+        <a href="views/contacts.html">Контакти</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <div class="badge">HTML • CSS • JavaScript</div>
+        <h1>Модерен проект като за университетски курс</h1>
+        <p>Това е примерен многoстраничен сайт с меню, секции, карти, контактна форма и по-подреден дизайн.</p>
+        <button class="button" onclick="showWelcome()">Пробвай JavaScript</button>
+        <a class="button secondary" href="views/about.html">Виж повече</a>
+      </div>
+      <div class="hero-image">
+        <img src="assets/hero.svg" alt="Илюстрация">
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Основни секции</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="assets/card1.svg" alt="Структура">
+          <h3>Добра структура</h3>
+          <p>Файловете са разделени в папки за стилове, скриптове, страници и изображения.</p>
+        </div>
+        <div class="card">
+          <img src="assets/card2.svg" alt="Дизайн">
+          <h3>По-хубав дизайн</h3>
+          <p>Използван е модерен layout с hero секция, карти, панели и responsive подредба.</p>
+        </div>
+        <div class="card">
+          <img src="assets/card3.svg" alt="Форма">
+          <h3>Реална практика</h3>
+          <p>Има меню, форма за контакт и няколко отделни страници като в истинско домашно.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="info-grid">
+        <div class="panel">
+          <h3>Какво можеш да смениш</h3>
+          <ul class="clean">
+            <li>Заглавието на проекта</li>
+            <li>Името си и курса</li>
+            <li>Текстовете по секциите</li>
+            <li>Изображенията в папка assets</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>За какво става</h3>
+          <p>Този проект е подходящ за упражнение, домашно, демонстрация в курс или качване в GitHub.</p>
+          <p>Отвори <strong>index.html</strong>, за да стартираш сайта локално.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Студентски уеб проект
+  </footer>
+
+  <script src="code/script.js"></script>
+</body>
+</html>

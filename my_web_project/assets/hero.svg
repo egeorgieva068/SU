@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+    <rect width="800" height="500" fill="#dbeafe"/>
+    <rect x="70" y="80" width="300" height="220" rx="20" fill="#2563eb"/>
+    <rect x="430" y="130" width="250" height="150" rx="20" fill="#0f766e"/>
+    <circle cx="650" cy="90" r="40" fill="#93c5fd"/>
+    <text x="80" y="360" font-family="Arial" font-size="36" fill="#1e3a8a">Student Web Project</text>
+    </svg>

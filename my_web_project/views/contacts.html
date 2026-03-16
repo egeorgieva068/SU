@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+  <header>
+    <div class="container topbar">
+      <div class="logo">MyWebProject</div>
+      <nav>
+        <a href="../index.html">Начало</a>
+        <a href="about.html">За проекта</a>
+        <a href="courses.html">Курсове</a>
+        <a href="contacts.html">Контакти</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h1 class="section-title">Свържи се с нас</h1>
+      <form onsubmit="submitMessage(event)">
+        <label>Име</label>
+        <input type="text" placeholder="Въведи име">
+
+        <label>Имейл</label>
+        <input type="email" placeholder="example@email.com">
+
+        <label>Съобщение</label>
+        <textarea rows="5" placeholder="Напиши съобщение"></textarea>
+
+        <button class="button" type="submit">Изпрати</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Студентски уеб проект
+  </footer>
+
+  <script src="../code/script.js"></script>
+</body>
+</html>
